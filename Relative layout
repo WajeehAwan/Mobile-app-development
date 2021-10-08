@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/teal_200"
+    >
+
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="110dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:text="Home Features"
+            android:textColor="@color/teal_700"
+            android:textSize="30dp"
+            android:textStyle="italic"></com.google.android.material.textview.MaterialTextView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="-190dp"
+            android:layout_marginTop="45dp"
+            android:background="@color/white"
+            android:text="Automation"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="italic"
+
+            ></com.google.android.material.textview.MaterialTextView>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/add">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/white"
+>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ac">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="-85dp"
+        android:background="@color/white"
+        android:text="Fans"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="120dp"
+        ></com.google.android.material.textview.MaterialTextView>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/air_conditioner">
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="-120dp"
+                android:background="@color/white"
+                android:text="Air Conditioner"
+                android:textColor="@color/purple_500"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_marginTop="120dp"
+                ></com.google.android.material.textview.MaterialTextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="270dp"
+        android:background="@color/white"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/television">
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-85dp"
+            android:background="@color/white"
+            android:text="Television"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="120dp"
+            ></com.google.android.material.textview.MaterialTextView>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/idea">
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-90dp"
+            android:background="@color/white"
+            android:text="Lights"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="120dp"
+            ></com.google.android.material.textview.MaterialTextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="420dp"
+        android:background="@color/white"
+        >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/television">
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-85dp"
+            android:background="@color/white"
+            android:text="Television"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="120dp"
+            ></com.google.android.material.textview.MaterialTextView>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/idea">
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-90dp"
+            android:background="@color/white"
+            android:text="Lights"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="120dp"
+            ></com.google.android.material.textview.MaterialTextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="570dp"
+        android:background="@color/white"
+        >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/air_conditioner">
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-85dp"
+            android:background="@color/white"
+            android:text="Air cooler"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="120dp"
+            ></com.google.android.material.textview.MaterialTextView>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ac">
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-90dp"
+            android:background="@color/white"
+            android:text="Fans"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="120dp"
+            ></com.google.android.material.textview.MaterialTextView>
+    </LinearLayout>
+
+</RelativeLayout>
