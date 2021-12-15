@@ -31,5 +31,10 @@ class MainActivity : AppCompatActivity() {
             var uri = Uri.parse("tel:"+text_phone.text.toString())
             startActivity(Intent(Intent.ACTION_VIEW,uri))
         }
+        fun loction(view: android.view.View) {
+        var uri:Uri= Uri.parse(uriString: "geo:0,0?q=" + edLoction.text.toString())
+        StartActivity(Intent(Intent.ACTIVITY_VIEW,uri))
     }
+    }
+    
 }
