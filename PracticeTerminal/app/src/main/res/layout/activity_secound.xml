@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secound">
+
+    <Button
+        android:id="@+id/btnEmail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="Send an Email"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnnotify"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Body" />
+
+    <Button
+        android:id="@+id/btnnotify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="423dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="Send Notification"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEmail2" />
+
+    <EditText
+        android:id="@+id/Subject"
+        android:layout_width="270dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="Subject"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Body"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailto" />
+
+    <EditText
+        android:id="@+id/emailto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Mailto"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Subject"
+        app:layout_constraintEnd_toEndOf="@+id/Subject"
+        app:layout_constraintStart_toStartOf="@+id/Subject"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Body"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:text="Body"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnEmail2"
+        app:layout_constraintEnd_toEndOf="@+id/Subject"
+        app:layout_constraintStart_toStartOf="@+id/Subject"
+        app:layout_constraintTop_toBottomOf="@+id/Subject" />
+</androidx.constraintlayout.widget.ConstraintLayout>

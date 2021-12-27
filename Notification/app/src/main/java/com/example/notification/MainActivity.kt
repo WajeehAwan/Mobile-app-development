@@ -26,9 +26,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
     private fun createNotic(){
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
-            val name= "Notification titile"
+            val name= "Notification title"
             val discri = "notifcation is no more"
             val impo :Int = NotificationManager.IMPORTANCE_DEFAULT
 
@@ -65,7 +66,7 @@ class MainActivity : AppCompatActivity() {
             .setLargeIcon(bitmap)
             .setContentTitle("Notification")
             .setContentText("hi i am behram")
-            .setStyle(NotificationCompat.BigTextStyle().bigText("hi big text"))
+            //.setStyle(NotificationCompat.BigTextStyle().bigText("hi big text"))
             .setContentIntent(pendingIntent)
             .addAction(action)
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
