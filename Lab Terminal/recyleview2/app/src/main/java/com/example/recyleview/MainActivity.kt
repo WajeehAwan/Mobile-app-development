@@ -90,9 +90,6 @@ class MainActivity : AppCompatActivity() {
 
 }
 
-private fun <E> ArrayList<E>.add(element: ItemModel) {
-
-}
 
 
 //        val requestQueue = Volley.newRequestQueue(this)
